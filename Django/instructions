@@ -1,0 +1,16 @@
+sudo mkdir Blog
+cd mkdir Blog
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv benv
+source benv/bin/activate
+pip3 install django
+django-admin startproject fullfeatured .
+open this folder into sublime text editor
+for creating app
+python3 manage.py startapp blog
+
+after creating models
+python3 manage.py makemigrations
+python3 manage.py migrate
+
